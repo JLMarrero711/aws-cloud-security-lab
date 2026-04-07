@@ -11,7 +11,7 @@ engineering roles — December 2026 graduation.
 
 ## Architecture
 
-![Architecture Diagram](screenshots/architecture-diagram.png)
+![Architecture Diagram](screenshots/securityArchitectureDiagram.png)
 
 ### What's deployed
 

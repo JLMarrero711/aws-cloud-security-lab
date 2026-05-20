@@ -104,12 +104,19 @@ vulnerabilities and OWASP Top 10 with no custom rule writing required.
 ## Controls That Worked
 
 | Control | What it prevented |
+
 | Security group: bastion-sg | All ports except 22 unreachable |
+
 | Security group: bastion-sg | SSH from non-admin IPs blocked |
+
 | Private subnet — no IGW route | Private EC2 completely unreachable from internet |
+
 | Security group: private-sg | Port 80 only from public subnet CIDR |
+
 | IAM least privilege | EC2 roles scoped to minimum required permissions |
+
 | CloudTrail + CloudWatch | API-layer actions logged and alerted |
+
 | ALB as single entry point | Web server has no public IP |
 
 ## What I Would Add Next
